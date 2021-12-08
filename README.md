@@ -31,46 +31,22 @@ This is a project for a practice of node and react js.
 ```
 npm install
 ```
-- Open database and create:
-```
-CREATE DATABASE nombreDatabase
-```
-- Create a file `.env` in the directory and put and complete:
-```
-NODE_PORT = 3000
-DB_PORT = 3306
-SERVER = ''
-USER = 'root'
-PASS = ''
-HOST = 'localhost'
-DB = ''
-SECRET_KEY = ''
-REDIS_PORT = 6379
-```
+
+
 - Run the project
 
-`npm run dev`
+`npm start`
 
-## <a name="documentation"></a>Documentation:
-
-The project will do it with Swagger
-Go to `url+/api-docs`
-
-## <a name="testing"></a>Testing:
-
-For running just put : `npm run test`
 
 ## <a name="images"></a>Images:
 
-![Deploy](./readmeFiles/111.png)
-![DER](./readmeFiles/222.png)
+![Deploy](./admintasks.png)
 
 ## <a name="technologies"></a>Technologies:
-- Node.js
-- Nodemon
-- Dotenv
-- JWT
-- Express
+- React
+- Axios
+- HTML
+- CSS
 
 ## Project management software
 - [ ] Trello: 
