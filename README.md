@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+# Admin Tasks
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Application with login and crud task
 
-## Available Scripts
+This is a project for a practice of node and react js.
 
-In the project directory, you can run:
+## Area
+- [x] Frontend
+- [x] Backend: https://github.com/jonatan-c/crud-login-mern-servidor
 
-### `npm start`
+## Deploy
+- [x] Local.
+- [x] Heroku(Frontend):https://crud-mern-login.netlify.app/
+- [ ] AWS.
+- [x] Netlify(Backend).
+- [ ] None.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## <a name="table-of-contents"></a>Table of Contents
+- [Instalation](#installation)
+- [Documentation](#documentation)
+- [Images](#images)
+- [Technologies](#technologies)
 
-### `npm test`
+## <a name="installation"></a>Instalation:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Clone the repository or download
+- Open whith editor
+- Open Terminal
+- Install dependencies:
+```
+npm install
+```
+- Open database and create:
+```
+CREATE DATABASE nombreDatabase
+```
+- Create a file `.env` in the directory and put and complete:
+```
+NODE_PORT = 3000
+DB_PORT = 3306
+SERVER = ''
+USER = 'root'
+PASS = ''
+HOST = 'localhost'
+DB = ''
+SECRET_KEY = ''
+REDIS_PORT = 6379
+```
+- Run the project
 
-### `npm run build`
+`npm run dev`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## <a name="documentation"></a>Documentation:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The project will do it with Swagger
+Go to `url+/api-docs`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## <a name="testing"></a>Testing:
 
-### `npm run eject`
+For running just put : `npm run test`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## <a name="images"></a>Images:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Deploy](./readmeFiles/111.png)
+![DER](./readmeFiles/222.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## <a name="technologies"></a>Technologies:
+- Node.js
+- Nodemon
+- Dotenv
+- JWT
+- Express
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Project management software
+- [ ] Trello: 
+- [ ] Jira: 
+- [x] None
 
-## Learn More
+## Agile methodology
+- [ ] Scrum
+- [ ] Kanban
+- [x] Not applied
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## CI/CD
+- [ ] Applied
+- [x] Not applied
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## AWS(services)
+- [ ] Applied
+- [x] Not applied
